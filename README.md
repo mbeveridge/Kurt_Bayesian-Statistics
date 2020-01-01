@@ -23,6 +23,8 @@
 
 **P(door, window, no-laptop | H2, child)** ...where H2 = accident
 
+**P(D | H2) >> P(D | H1)** ...where D = door open, window broken, laptop missing
+
 ---
 
 ### 2. Measuring Uncertainty
