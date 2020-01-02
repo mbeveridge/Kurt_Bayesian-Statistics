@@ -29,6 +29,16 @@
 
 ### 2. Measuring Uncertainty
 
+#### Exercises
+
+**Q1.** *What is the probability of rolling two six-sided dice and getting a value greater than 7?*
+
+**Q2.** *What is the probability of rolling three six-sided dice and getting a value greater than 7?*
+
+**Q3.** *The Yankees are playing the Red Sox. You’re a diehard Sox fan and bet your friend they’ll win. You’ll pay your friend $30 if the Sox lose and receive only $5 if the Sox win. What is the probability you have intuitively assigned to the belief that the Red Sox will win?*
+
+---
+
 ### 3. The Logic of Uncertainty
 
 ### 4. Creating a Binomial Probability Distribution
