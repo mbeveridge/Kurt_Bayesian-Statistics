@@ -1,6 +1,8 @@
 # Bayesian Statistics the Fun Way
 ###### Will Kurt
 
+*"Frequentist statistics is founded on the idea that probability represents the frequency with which something happens. ... Bayesian statistics, on the other hand, is concerned with how probabilities represent how uncertain we are about a piece of information"*
+
 ---
 
 ## PART I: INTRODUCTION TO PROBABILITY
@@ -30,6 +32,9 @@
 
 ### 2. Measuring Uncertainty
 
+* ¬ symbol means “negation” or “not”. [ie. ¬P(X) == 1 - P(X)] ...P.14
+* Ω indicates the set of all events ...P.15
+
 #### Exercises
 
 **Q1.** *What is the probability of rolling two six-sided dice and getting a value greater than 7?* **{2+6, 3+5, 3+6, 4+4, 4+5, 4+6, 5+3, 5+4, 5+5, 5+6, 6+2, 6+3, 6+4, 6+5, 6+6} --> 15/36 --> 0.417**
@@ -45,6 +50,9 @@
 
 ### 3. The Logic of Uncertainty
 
+* Product Rule of probability : P(A,B) = P(A) × P(B) ...P.25
+* Sum Rule of probability : P(A OR B) = P(A) + P(B) − P(A,B) ...P.29,30
+
 #### Exercises
 
 **Q1.** *What is the probability of rolling a 20 three times in a row on a 20-sided die?* : **P(3 20s) = 1/20 * 1/20 * 1/20 --> 1/8000 or 0.000125**
@@ -59,6 +67,12 @@
 ---
 
 ### 4. Creating a Binomial Probability Distribution
+
+* 'binomial' has 2 possible outcomes - an event happens or not. (If >2 outcomes are possible, the distribution is 'multinomial') ...P.34
+* 'binomial coefficient' represents the ways (permutations) we can select k from n ...P.37
+* `choose()` in R for binomial coefficient ...P.38
+* `pbinom()` in R ...P.42
+
 
 #### Exercises
 
