@@ -50,8 +50,8 @@
 
 ### 3. The Logic of Uncertainty
 
-* Product Rule of probability : P(A,B) = P(A) × P(B) ...P.25
-* Sum Rule of probability : P(A OR B) = P(A) + P(B) − P(A,B) ...P.29,30
+* **Product Rule** of probability : P(A,B) = P(A) × P(B) ...P.25
+* **Sum Rule** of probability : P(A OR B) = P(A) + P(B) − P(A,B) ...P.29,30
 
 #### Exercises
 
@@ -68,10 +68,13 @@
 
 ### 4. Creating a Binomial Probability Distribution
 
-* 'binomial' has 2 possible outcomes - an event happens or not. (If >2 outcomes are possible, the distribution is 'multinomial') ...P.34
-* 'binomial coefficient' represents the ways (permutations) we can select k from n ...P.37
-* `choose()` in R for binomial coefficient ...P.38
-* `pbinom()` in R ...P.42
+* '**binomial**' has 2 possible outcomes - an event happens or not. ('multinomial' has >2 possible outcomes) ...P.34
+* '**binomial coefficient**' represents the ways (permutations) we can select k from n ...P.37
+* **`choose()`** in R for binomial coefficient ...P.38
+* '**Probability Mass Function**' (PMF) is the basis of the binomial distribution ...P.39
+*  k outcomes we care about; n trials; and p probability of the individual outcome ...P.39
+*  Σ is the summation symbol (for every value of k from 1 to n) ...P.42
+* **`pbinom()`** in R (to sum up all these values for k in our PMF) ...P.42
 
 
 #### Exercises
