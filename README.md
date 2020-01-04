@@ -81,7 +81,13 @@
 
 **Q1.** *What are the parameters of the binomial distribution for the probability of rolling either a 1 or a 20 on a 20-sided die, if we roll the die 12 times?*
 
+**outcomes k = 1 [1 time, out of n trials]; trials n = 12; probability p = 2/20**
+
 **Q2.** *There are four aces in a deck of 52 cards. If you pull a card, return the card, then reshuffle and pull a card again, how many ways can you pull just one ace in five pulls?*
+
+**k = 4; n = 5; p = 4/52. We are interested in permutations : n!/k!(n-k)! --> 60/(12 x 1) --> 5 ways you can pull one ace in one pull (not helpful)**
+
+**5 x (4/52)^4 x (48/52)**
 
 **Q3.** *For the example in Q2, what is the probability of pulling five aces in 10 pulls (remember the card is shuffled back in the deck when it is pulled)?*
 
