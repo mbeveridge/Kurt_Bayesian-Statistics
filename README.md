@@ -70,11 +70,11 @@
 
 * '**binomial**' has 2 possible outcomes - an event happens or not. ('multinomial' has >2 possible outcomes) ...P.34
 * '**binomial coefficient**' represents the ways (permutations) we can select k from n ...P.37
-* **`choose()`** in R for binomial coefficient ...P.38
+* **`choose(n,k)`** in R for binomial coefficient ...P.38
 * '**Probability Mass Function**' (PMF) is the basis of the binomial distribution ...P.39
 *  k outcomes we care about; n trials; and p probability of the individual outcome ...P.39
 *  Σ is the summation symbol (for every value of k from 1 to n) ...P.42
-* **`pbinom()`** in R (to sum up all these values for k in our PMF) ...P.42
+* **`pbinom(k,n,p,lower.tail)`** in R (to sum up all these values for k in our PMF) ...P.42
 
 
 #### Exercises
@@ -85,11 +85,20 @@
 
 **Q2.** *There are four aces in a deck of 52 cards. If you pull a card, return the card, then reshuffle and pull a card again, how many ways can you pull just one ace in five pulls?*
 
-**k = 4; n = 5; p = 4/52. We are interested in permutations : n!/k!(n-k)! --> 60/(12 x 1) --> 5 ways you can pull one ace in one pull (not helpful)**
-
-**5 x (4/52)^4 x (48/52)**
+**k = 1; n = 5; p = 4/52. We are interested in permutations : n!/k!(n-k)! --> 60/(1 x 12) --> 5 ways you can pull one ace in one pull (which can be reasoned without using formula)**
 
 **Q3.** *For the example in Q2, what is the probability of pulling five aces in 10 pulls (remember the card is shuffled back in the deck when it is pulled)?*
+
+**k = 5; n = 10; p = 4/52**
+**B(5;10,1/13) = (10!/5!5!) x (1/13)^5 x (12/13)^5 -->
+(3628800/120x120) x 0.00000269329 x 0.67017692226 -->
+252 * 0.00000180498 -->
+0.00045485516 ... ~1/2199**
+
+[Book answer (P.234) says B(5;10,1/13) is ~1/32000 --> 0.00003125 ...I don't see how]
+[Using R, `choose(10,5)` is 252]
+[Using R, `pbinom(5,10,1/13,lower.tail=TRUE)` minus `pbinom(4,10,1/13,lower.tail=TRUE)` --> 0.9999669 - 0.999512 --> 0.0004549. THIS AGREES WITH MY LONG CALC, above]
+[Online solutions [https://nostarch.com/learnbayes](https://nostarch.com/learnbayes) incorrectly say p=1/23 ...but that would give/explain the answer 3.134986e-05. Cannot see a form/way to mention the error]
 
 **Q4.** *When you’re searching for a new job, it’s always helpful to have more than one offer on the table so you can use it in negotiations. If you have a 1/5 probability of receiving a job offer when you interview, and you interview with seven companies in a month, what is the probability you’ll have at least two competing offers by the end of that month?*
 
