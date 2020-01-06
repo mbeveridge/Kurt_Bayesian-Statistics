@@ -74,7 +74,7 @@
 ### 4. Creating a Binomial Probability Distribution
 
 * '**binomial**' has 2 possible outcomes - an event happens or not. ('multinomial' has >2 possible outcomes) ...P.34
-* '**binomial coefficient**' represents the ways (permutations) we can select k from n ...P.37
+* '**binomial coefficient**' represents the ways [permutations] we can select k from n ...P.37
 * **`choose(n,k)`** in R for binomial coefficient ...P.38
 * '**Probability Mass Function**' (PMF) is the basis of the binomial distribution ...P.39
 *  k outcomes we care about; n trials; and p probability of the individual outcome ...P.39
@@ -126,13 +126,30 @@
 
 ### 5. The Beta Distribution
 
+* In a sense, statistics is probability in reverse [re. inference] ...P.46
+* '**Probability Density Function**' (PDF) is similar to the PMF, but for continuous values ...P.50
+* α + β is total number of trials [cf. k + (n-k) = n] ...P.50
+* '**beta function**' (and subtract 1) to normalize our values ...P.51
+* **beta distribution** [of k] is fundamentally different from the binomial distribution [of p] ...P.52
+* `dbeta(p,α,β)` in R for PDF ...P.53
+* `integrate()` in R (to sum up all these values for p in our PDF) ...P.53
+* beta distribution is closely related to the binomial distribution, but behaves quite differently ...P.55
+* Cannot sum results as we did for a discrete probability distribution. Instead, use calculus to sum ranges of values [integrate] ...P.55
+
+
 #### Exercises
 
 **Q1.** *You want to use the beta distribution to determine whether or not a coin you have is a fair coin — meaning that the coin gives you heads and tails equally. You flip the coin 10 times and get 4 heads and 6 tails. Using the beta distribution, what is the probability that the coin will land on heads more than 60 percent of the time?*
 
+**xx**
+
 **Q2.** *You flip the coin 10 more times and now have 9 heads and 11 tails total. What is the probability that the coin is fair, using our definition of fair, give or take 5 percent?*
 
+**yy**
+
 **Q3.** *Data is the best way to become more confident in your assertions. You flip the coin 200 more times and end up with 109 heads and 111 tails. Now what is the probability that the coin is fair, give or take 5 percent?*
+
+**zz**
 
 
 ---
