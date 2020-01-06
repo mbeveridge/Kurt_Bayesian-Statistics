@@ -126,6 +126,17 @@
 
 ### 5. The Beta Distribution
 
+#### Exercises
+
+**Q1.** *You want to use the beta distribution to determine whether or not a coin you have is a fair coin — meaning that the coin gives you heads and tails equally. You flip the coin 10 times and get 4 heads and 6 tails. Using the beta distribution, what is the probability that the coin will land on heads more than 60 percent of the time?*
+
+**Q2.** *You flip the coin 10 more times and now have 9 heads and 11 tails total. What is the probability that the coin is fair, using our definition of fair, give or take 5 percent?*
+
+**Q3.** *Data is the best way to become more confident in your assertions. You flip the coin 200 more times and end up with 109 heads and 111 tails. Now what is the probability that the coin is fair, give or take 5 percent?*
+
+
+---
+
 ## PART II
 ## PART III
 ## PART IV
