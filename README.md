@@ -141,15 +141,21 @@
 
 **Q1.** *You want to use the beta distribution to determine whether or not a coin you have is a fair coin — meaning that the coin gives you heads and tails equally. You flip the coin 10 times and get 4 heads and 6 tails. Using the beta distribution, what is the probability that the coin will land on heads more than 60 percent of the time?*
 
-**xx**
+**α = 4; β = 6**
+
+**`integrate(function(p) dbeta(p,4,6),0.6,1)` --> 0.09935258 with absolute error < 1.1e-15**
 
 **Q2.** *You flip the coin 10 more times and now have 9 heads and 11 tails total. What is the probability that the coin is fair, using our definition of fair, give or take 5 percent?*
 
-**yy**
+**α = 9; β = 11**
+
+**`integrate(function(p) dbeta(p,9,11),0.45,0.55)` --> 0.30988 with absolute error < 3.4e-15**
 
 **Q3.** *Data is the best way to become more confident in your assertions. You flip the coin 200 more times and end up with 109 heads and 111 tails. Now what is the probability that the coin is fair, give or take 5 percent?*
 
-**zz**
+**α = 109; β = 111**
+
+**`integrate(function(p) dbeta(p,109,111),0.45,0.55)` --> 0.8589371 with absolute error < 9.5e-15**
 
 
 ---
