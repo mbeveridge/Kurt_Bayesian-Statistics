@@ -161,6 +161,15 @@
 
 ---
 
-## PART II
+## PART II: BAYESIAN PROBABILITY AND PRIOR PROBABILITIES
+
+### 6. Conditional Probability
+### 7. Bayes' Theorem with LEGO
+### 8. The Prior, Likelihood, and Posterior of Bayes' Theorem
+### 9. Bayesian Priors and Working with Probability Distributions
+
+
+---
+
 ## PART III
 ## PART IV
