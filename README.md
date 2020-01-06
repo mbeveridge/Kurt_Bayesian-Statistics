@@ -164,6 +164,18 @@
 ## PART II: BAYESIAN PROBABILITY AND PRIOR PROBABILITIES
 
 ### 6. Conditional Probability
+
+#### Exercises
+
+**Q1.** *What piece of information would we need in order to use Bayes’ theorem to determine the probability that someone in 2010 who had GBS also had the flu vaccine that year?*
+
+**Q2.** *What is the probability that a random person picked from the population is female and is not color blind?*
+
+**Q3.** *What is the probability that a male who received the flu vaccine in 2010 is either color blind or has GBS?*
+
+
+---
+
 ### 7. Bayes' Theorem with LEGO
 ### 8. The Prior, Likelihood, and Posterior of Bayes' Theorem
 ### 9. Bayesian Priors and Working with Probability Distributions
