@@ -76,7 +76,7 @@
 * '**binomial**' has 2 possible outcomes - an event happens or not. ('multinomial' has >2 possible outcomes) ...P.34
 * '**binomial coefficient**' represents the ways [permutations] we can select k from n ...P.37
 * **`choose(n,k)`** in R for binomial coefficient ...P.38
-* '**Probability Mass Function**' (PMF) is the basis of the binomial distribution ...P.39
+* '**Probability Mass Function**' (PMF) is the basis of the binomial distribution [B(k,n,p)] ...P.39
 *  k outcomes we care about; n trials; and p probability of the individual outcome ...P.39
 *  Σ is the summation symbol (for every value of k from 1 to n) ...P.42
 * **`pbinom(k,n,p,lower.tail)`** in R (to sum up all these values for k in our PMF) ...P.42
@@ -131,8 +131,9 @@
 * α + β is total number of trials [cf. k + (n-k) = n] ...P.50
 * '**beta function**' (and subtract 1) to normalize our values ...P.51
 * **beta distribution** [of k] is fundamentally different from the binomial distribution [of p] ...P.52
-* `dbeta(p,α,β)` in R for PDF ...P.53
+* `dbeta(p,α,β)` in R for PDF [Beta(α,β)] ...P.53
 * `integrate()` in R (to sum up all these values for p in our PDF) ...P.53
+* `integrate(function(p) dbeta(p,14,27),0,0.5)` ...P.53
 * beta distribution is closely related to the binomial distribution, but behaves quite differently ...P.55
 * Cannot sum results as we did for a discrete probability distribution. Instead, use calculus to sum ranges of values [integrate] ...P.55
 
