@@ -205,13 +205,21 @@
 
 #### Exercises
 
-**Q1.** *Kansas City, despite its name, sits on the border of two US states: Missouri and Kansas. The Kansas City metropolitan area consists of15 counties, 9 in Missouri and 6 in Kansas. The entire state of Kansas has 105 counties and Missouri has 114. Use Bayes’ theorem to calculate the probability that a relative who just moved to a county in the Kansas City metropolitan area also lives in a county in Kansas. Make sure to show P(Kansas) (assuming your relative either lives in Kansas or Missouri), P(Kansas City metropolitan area), and P(Kansas City metropolitan area | Kansas)*
+**Q1.** *Kansas City, despite its name, sits on the border of two US states: Missouri and Kansas. The Kansas City metropolitan area consists of 15 counties, 9 in Missouri and 6 in Kansas. The entire state of Kansas has 105 counties and Missouri has 114. Use Bayes’ theorem to calculate the probability that a relative who just moved to a county in the Kansas City metropolitan area also lives in a county in Kansas. Make sure to show P(Kansas) (assuming your relative either lives in Kansas or Missouri), P(Kansas City metropolitan area), and P(Kansas City metropolitan area | Kansas)*
 
-**xx**
+**P(A | B) = P(B | A) P(A) / P(B)**
+
+**P(Kansas | KCMA) = P(KCMA | Kansas) P(Kansas) / P(KCMA) --> 6/15 = (6/105) x (105/219) / (15/219) ...2/5**
 
 **Q2.** *A deck has 52 cards with suits that are either red or black. There are four aces: two red and two black. You remove a red ace from the deck and shuffle the cards. Your friend pulls a black card. What is the probability that it is an ace?*
 
-**yy**
+**P(A | B) = P(B | A) P(A) / P(B)**
+
+**P(Ace | Black) = P(Black | Ace) P(Ace) / P(Black)**
+
+**If red ace replaced : 2/26 = (2/4) x (4/52) / (26/52) ...1/13**
+
+**If red ace NOT replaced : 2/26 = (2/3) x (3/51) / (26/51) ...1/13 again**
 
 
 ---
