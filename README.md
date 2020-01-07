@@ -170,7 +170,7 @@
 * **Product rule** updated as : P(A,B) = P(A) × P(B | A). [This definition works for independent probabilities as well, because for those P(B) = P(B | A) ] ...P.62
 * **Sum rule** updated as : P(A or B) = P(A) + P(B) − P(A) × P(B | A) ...P.62
 * One of the most amazing things we can do with conditional probabilities is reversing the condition ...P.62
-* **Bayes theorem** P(A | B) = P(A) P(B | A) / P(B) ...P.64
+* **Bayes theorem** : P(A | B) = P(A) P(B | A) / P(B) ...P.64
 *  Bayes’ theorem allows you to reverse P(observed | belief) and solve for the likelihood of your beliefs given what you’ve observed, P(belief | observed) ...P.64
 
 #### Exercises
@@ -201,13 +201,15 @@
 
 ### 7. Bayes' Theorem with LEGO
 
+* **Bayes theorem** rearranged from Chapt6 : P(A | B) = P(B | A) P(A) / P(B) ...P.67
+
 #### Exercises
 
-**Q1.** Kansas City, despite its name, sits on the border of two US states: Missouri and Kansas. The Kansas City metropolitan area consists of15 counties, 9 in Missouri and 6 in Kansas. The entire state of Kansas has 105 counties and Missouri has 114. Use Bayes’ theorem to calculate the probability that a relative who just moved to a county in the Kansas City metropolitan area also lives in a county in Kansas. Make sure to show P(Kansas) (assuming your relative either lives in Kansas or Missouri), P(Kansas City metropolitan area), and P(Kansas City metropolitan area | Kansas)
+**Q1.** *Kansas City, despite its name, sits on the border of two US states: Missouri and Kansas. The Kansas City metropolitan area consists of15 counties, 9 in Missouri and 6 in Kansas. The entire state of Kansas has 105 counties and Missouri has 114. Use Bayes’ theorem to calculate the probability that a relative who just moved to a county in the Kansas City metropolitan area also lives in a county in Kansas. Make sure to show P(Kansas) (assuming your relative either lives in Kansas or Missouri), P(Kansas City metropolitan area), and P(Kansas City metropolitan area | Kansas)*
 
 **xx**
 
-**Q2.** A deck of cards has 52 cards with suits that are either red or black. There are four aces in a deck of cards: two red and two black. You remove a red ace from the deck and shuffle the cards. Your friend pulls a black card. What is the probability that it is an ace?
+**Q2.** *A deck has 52 cards with suits that are either red or black. There are four aces: two red and two black. You remove a red ace from the deck and shuffle the cards. Your friend pulls a black card. What is the probability that it is an ace?*
 
 **yy**
 
