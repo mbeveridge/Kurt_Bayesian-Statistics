@@ -200,6 +200,20 @@
 ---
 
 ### 7. Bayes' Theorem with LEGO
+
+#### Exercises
+
+**Q1.** Kansas City, despite its name, sits on the border of two US states: Missouri and Kansas. The Kansas City metropolitan area consists of15 counties, 9 in Missouri and 6 in Kansas. The entire state of Kansas has 105 counties and Missouri has 114. Use Bayes’ theorem to calculate the probability that a relative who just moved to a county in the Kansas City metropolitan area also lives in a county in Kansas. Make sure to show P(Kansas) (assuming your relative either lives in Kansas or Missouri), P(Kansas City metropolitan area), and P(Kansas City metropolitan area | Kansas)
+
+**xx**
+
+**Q2.** A deck of cards has 52 cards with suits that are either red or black. There are four aces in a deck of cards: two red and two black. You remove a red ace from the deck and shuffle the cards. Your friend pulls a black card. What is the probability that it is an ace?
+
+**yy**
+
+
+---
+
 ### 8. The Prior, Likelihood, and Posterior of Bayes' Theorem
 ### 9. Bayesian Priors and Working with Probability Distributions
 
