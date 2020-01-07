@@ -165,6 +165,14 @@
 
 ### 6. Conditional Probability
 
+* 'Independent probabilities' often don’t reflect real life ...P.59
+* Conditional probabilities allow us to demonstrate how information changes our beliefs ...P.60
+* **Product rule** updated as : P(A,B) = P(A) × P(B | A). [This definition works for independent probabilities as well, because for those P(B) = P(B | A) ] ...P.62
+* **Sum rule** updated as : P(A or B) = P(A) + P(B) − P(A) × P(B | A) ...P.62
+* One of the most amazing things we can do with conditional probabilities is reversing the condition ...P.62
+* **Bayes theorem** P(A | B) = P(A) P(B | A) / P(B) ...P.64
+*  Bayes’ theorem allows you to reverse P(observed | belief) and solve for the likelihood of your beliefs given what you’ve observed, P(belief | observed) ...P.64
+
 #### Exercises
 
 **Q1.** *What piece of information would we need in order to use Bayes’ theorem to determine the probability that someone in 2010 who had GBS also had the flu vaccine that year?*
