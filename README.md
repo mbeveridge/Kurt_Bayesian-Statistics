@@ -185,13 +185,16 @@
 
 **Q2.** *What is the probability that a random person picked from the population is female and is not color blind?*
 
-**P(female, not color blind) = P(female) x P(not color blind) --> From P.61 info, 0.5 x (1 - 0.005) --> 0.4975**
+**P(female, not color blind) = P(female) x P(not color blind | female) --> From P.61 info, 0.5 x (1 - 0.005) --> 0.4975**
 
 **Q3.** *What is the probability that a male who received the flu vaccine in 2010 is either color blind or has GBS?*
 
 **P(color blind OR GBS | male,vaccine) = P(cb | male,vaccine) + P(GBS | male,vaccine) - P(cb,GBS | male,vaccine)**
 
-**0.08 + 0.00003 - (0.08 x 0.00003) --> **
+**0.08 + 0.00003 - (0.08 x 0.00003) --> 0.0800276**
+
+[Book answer (P.236) says P(cb | male) = 4/1000 ...but P.61 says differently, and is claimed to be the source(??)]
+[Online solutions [https://nostarch.com/learnbayes](https://nostarch.com/learnbayes) say 4/1000. Cannot see a form/way to mention the error(??) to publisher]
 
 
 ---
