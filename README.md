@@ -169,9 +169,21 @@
 
 **Q1.** *What piece of information would we need in order to use Bayes’ theorem to determine the probability that someone in 2010 who had GBS also had the flu vaccine that year?*
 
+**P(A | B) = P(A) P(B | A) / P(B)**
+
+**P(vaccine | GBS) = P(vaccine) x P(GBS | vaccine) / P(GBS)**
+
+**From P.60 info, P(GBS | vaccine) is 3/100000 in 2010; P(GBS) is 2/100000. So we need to know P(vaccine) in the general population**
+
 **Q2.** *What is the probability that a random person picked from the population is female and is not color blind?*
 
+**P(female, not color blind) = P(female) x P(not color blind) --> From P.61 info, 0.5 x (1 - 0.005) --> 0.4975**
+
 **Q3.** *What is the probability that a male who received the flu vaccine in 2010 is either color blind or has GBS?*
+
+**P(color blind OR GBS | male,vaccine) = P(cb | male,vaccine) + P(GBS | male,vaccine) - P(cb,GBS | male,vaccine)**
+
+**0.08 + 0.00003 - (0.08 x 0.00003) --> **
 
 
 ---
