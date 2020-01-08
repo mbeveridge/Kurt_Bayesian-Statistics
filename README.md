@@ -225,6 +225,20 @@
 ---
 
 ### 8. The Prior, Likelihood, and Posterior of Bayes' Theorem
+
+#### Exercises
+
+**Q1.** *As mentioned, you might disagree with the original probability assigned to the likelihood: P(brokenwindow, openfrontdoor, missinglaptop | robbed) = 3/10. How much does this change our strength in believing H1 over H2?*
+
+**xx**
+
+**Q2.** *How unlikely would you have to believe being robbed is — our prior for H1 — in order for the ratio of H1 to H2 to be even?*
+
+**yy**
+
+
+---
+
 ### 9. Bayesian Priors and Working with Probability Distributions
 
 
