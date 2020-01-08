@@ -226,6 +226,9 @@
 
 ### 8. The Prior, Likelihood, and Posterior of Bayes' Theorem
 
+* Ratio : If we just want to compare hypotheses, we don’t need to know P(D) (ie. don't need to normalize) ...P.78
+* Bayes' theorem (for ratio) : P(H | D) ∝ P(H) × P(D | H) ...'Posterior probability is proportional to Prior probability multiplied by the Likelihood'. (P(D) is notably absent) ...P. 80
+
 #### Exercises
 
 **Q1.** *As mentioned, you might disagree with the original probability assigned to the likelihood: P(brokenwindow, openfrontdoor, missinglaptop | robbed) = 3/10. How much does this change our strength in believing H1 over H2?*
