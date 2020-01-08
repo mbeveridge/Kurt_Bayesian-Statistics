@@ -244,6 +244,14 @@
 
 ### 9. Bayesian Priors and Working with Probability Distributions
 
+#### Exercises
+
+**Q1.** *A friend finds a coin on the ground, flips it, and gets six heads in a row and then one tails. Give the beta distribution that describes this. Use integration to determine the probability that the true rate of flipping heads is between 0.4 and 0.6, reflecting that the coin is reasonably fair*
+
+**Q2.** *Come up with a prior probability that the coin is fair. Use a beta distribution such that there is at least a 95 percent chance that the true rate of flipping heads is between 0.4 and 0.6*
+
+**Q3.** *Now see how many more heads (with no more tails) it would take to convince you that there is a reasonable chance that the coin is not fair. In this case, let’s say that this means that our belief in the rate of the coin being between 0.4 and 0.6 drops below 0.5*
+
 
 ---
 
