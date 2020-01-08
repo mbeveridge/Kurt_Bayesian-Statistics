@@ -234,7 +234,7 @@
 
 **Q2.** *How unlikely would you have to believe being robbed is — our prior for H1 — in order for the ratio of H1 to H2 to be even?*
 
-**Prior : P(H1). Assume that "ratio of H1 to H2 to be even" means 'to be 1'. P(H1) would need to be 6570 times smaller than in the P.80 calculation, which used 1/1000 from P.75 --> P(robbed) would have to be 1/6,570,000**
+**Prior : P(H1). Assume that "ratio of H1 to H2 to be even" means 'to be 1'. Based on the P.80 calculation, (which used 1/1000 from P.75), P(H1) would need to be 6570 times smaller  --> P(robbed) would have to be 1/6,570,000**
 
 
 ---
