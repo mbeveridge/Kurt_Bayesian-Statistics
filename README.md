@@ -265,5 +265,19 @@ A3. **[SEE ANSWER on P.240]**
 
 ---
 
-## PART III
+## PART III: PARAMETER ESTIMATION
+
+### 10. Intoduction to Averaging and Parameter Estimation
+
+
+---
+
+### 11. Measuring the Spread of Our Data
+### 12. The Normal Distribution
+### 13. Tools of Parameter Estimation: The PDF, CDF, and Quantile Function
+### 14. Parameter Estimation with Prior Probabilities
+
+
+---
+
 ## PART IV
