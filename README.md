@@ -227,7 +227,7 @@
 ### 8. The Prior, Likelihood, and Posterior of Bayes' Theorem
 
 * Ratio : If we just want to compare hypotheses, we don’t need to know P(D) (ie. don't need to normalize) ...P.78
-* Bayes' theorem (for ratio) : P(H | D) ∝ P(H) × P(D | H) ...'Posterior probability is proportional to Prior probability multiplied by the Likelihood'. (P(D) is notably absent) ...P. 80
+* Bayes' theorem (for ratio) : P(H | D) ∝ P(H) × P(D | H) ...'Posterior probability is proportional to Prior probability multiplied by the Likelihood'. (P(D) is notably absent) ...P.80
 
 #### Exercises
 
@@ -248,9 +248,17 @@
 
 **Q1.** *A friend finds a coin on the ground, flips it, and gets six heads in a row and then one tails. Give the beta distribution that describes this. Use integration to determine the probability that the true rate of flipping heads is between 0.4 and 0.6, reflecting that the coin is reasonably fair*
 
+**Beta(α,β) ...where α = observed successes = 6; β = observed failures = 1**
+
+**From Chapt5, for use with R : `integrate(function(p) dbeta(p,6,1),0.4,0.6)` --> 0.04256 with absolute error < 4.7e-16 ...Integrating the Beta function between 0.4 & 0.6**
+
 **Q2.** *Come up with a prior probability that the coin is fair. Use a beta distribution such that there is at least a 95 percent chance that the true rate of flipping heads is between 0.4 and 0.6*
 
+**[SEE ANSWER on P.240]**
+
 **Q3.** *Now see how many more heads (with no more tails) it would take to convince you that there is a reasonable chance that the coin is not fair. In this case, let’s say that this means that our belief in the rate of the coin being between 0.4 and 0.6 drops below 0.5*
+
+**[SEE ANSWER on P.240]**
 
 
 ---
