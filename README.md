@@ -244,6 +244,8 @@ A2. **Prior : P(H1). Assume that "ratio of H1 to H2 to be even" means 'to be 1'.
 
 ### 9. Bayesian Priors and Working with Probability Distributions
 
+* [HARD TO UNDERSTAND, based on previous Chapters, especially (only?) 'Likelihood' here]
+
 #### Exercises
 
 **Q1.** *A friend finds a coin on the ground, flips it, and gets six heads in a row and then one tails. Give the beta distribution that describes this. Use integration to determine the probability that the true rate of flipping heads is between 0.4 and 0.6, reflecting that the coin is reasonably fair*
