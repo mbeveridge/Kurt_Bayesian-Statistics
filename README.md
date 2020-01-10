@@ -281,12 +281,26 @@ A1. **The thermometer scale may be inaccurate ('biased'). If 'MY' normal tempera
 
 **Q2.** *Given that you feel healthy and have traditionally had a very consistently normal temperature, how could you alter the measurements 100, 99.5, 99.6, and 100.2 to estimate if the child has a fever?*
 
-A2. **Average of child's readings is 99.825. Average of my readings is (without frequency info) 97.75. Assumed (sysyematic) error is 98.6 minus 97.75 --> 0.85F. So corrected average of child's readings is 99.825 + 0.85 --> 100.675 ...On average (and for 2 of the 4 readings), a fever is indicated**
+A2. **Average of child's readings is 99.825. Average of my readings is (without frequency info) 97.75. Assumed 'systematic' error is 98.6 minus 97.75 --> 0.85F. So corrected average of child's readings is 99.825 + 0.85 --> 100.675 ...On average (and for 2 of the 4 readings), a fever is indicated**
 
 
 ---
 
 ### 11. Measuring the Spread of Our Data
+
+#### Exercises
+
+**Q1.** *One of the benefits of variance is that squaring the differences makes the penalties exponential. Give some examples of when this would be a useful property*
+
+A1. **xx**
+
+**Q2.** *Calculate the mean, variance, and standard deviation for the following values: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10*
+
+A2. **yy**
+
+
+---
+
 ### 12. The Normal Distribution
 ### 13. Tools of Parameter Estimation: The PDF, CDF, and Quantile Function
 ### 14. Parameter Estimation with Prior Probabilities
