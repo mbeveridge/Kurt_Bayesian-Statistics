@@ -273,11 +273,11 @@ A3. **[SEE ANSWER on P.240]**
 
 **Q1.** *It’s possible to get errors that don’t quite cancel out the way we want. In Fahrenheit, 98.6 degrees is the normal body temperature and 100.4 degrees is the typical threshold for a fever. Say a child feels warm and seems sick, but your repeated readings from the thermometer are all between 99.5 and 100.0 degrees: warm, but not quite a fever. You try the thermometer yourself and get several readings between 97.5 and 98. What could be wrong with the thermometer?*
 
-A1. **The thermometer scale may be inaccurate. If 'MY' normal temperature is 98.6 and I'm well, but the thermometer reads 97.5 to 98, then I'd assume this (~0.9F) inaccuracy to be in the child's readings as well**
+A1. **The thermometer scale may be inaccurate ('biased'). If 'MY' normal temperature is 98.6 and I'm well, but the thermometer reads 97.5 to 98, then I'd assume this (~0.9F) inaccuracy to be in the child's readings as well**
 
 **Q2.** *Given that you feel healthy and have traditionally had a very consistently normal temperature, how could you alter the measurements 100, 99.5, 99.6, and 100.2 to estimate if the child has a fever?*
 
-A2. **Average of child's readings is 99.825. Average of my readings is (without frequency info) 97.75. Assumed error is 98.6 minus 97.75 --> 0.85F. So corrected average of child's readings is 99.825 + 0.85 --> 100.675 ...On average (and for 2 of the 4 readings), a fever is indicated**
+A2. **Average of child's readings is 99.825. Average of my readings is (without frequency info) 97.75. Assumed (sysyematic) error is 98.6 minus 97.75 --> 0.85F. So corrected average of child's readings is 99.825 + 0.85 --> 100.675 ...On average (and for 2 of the 4 readings), a fever is indicated**
 
 
 ---
