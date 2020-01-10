@@ -269,6 +269,10 @@ A3. **[SEE ANSWER on P.240]**
 
 ### 10. Intoduction to Averaging and Parameter Estimation
 
+* Parameter : An unknown value that we want to estimate ...P.93
+* Averaging is the most basic form of parameter estimation ...P.94
+* Parameter estimation is the most common process for dealing with uncertainty ...P.95
+
 #### Exercises
 
 **Q1.** *It’s possible to get errors that don’t quite cancel out the way we want. In Fahrenheit, 98.6 degrees is the normal body temperature and 100.4 degrees is the typical threshold for a fever. Say a child feels warm and seems sick, but your repeated readings from the thermometer are all between 99.5 and 100.0 degrees: warm, but not quite a fever. You try the thermometer yourself and get several readings between 97.5 and 98. What could be wrong with the thermometer?*
