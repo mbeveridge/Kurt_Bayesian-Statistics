@@ -292,11 +292,15 @@ A2. **Average of child's readings is 99.825. Average of my readings is (without 
 
 **Q1.** *One of the benefits of variance is that squaring the differences makes the penalties exponential. Give some examples of when this would be a useful property*
 
-A1. **xx**
+A1. **"In other words, small differences aren’t nearly as important as big ones, as we would feel intuitively. If someone scheduled your meeting in the wrong room, for example, you wouldn’t be too upset if you ended up next door to the right room, but you’d almost cer- tainly be upset if you were sent to an office on the other side of the country"**
 
 **Q2.** *Calculate the mean, variance, and standard deviation for the following values: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10*
 
-A2. **yy**
+A2. **sum = 55 --> mean = 5.5**
+
+**variance =**
+
+**standard deviation = variance^0.5 -->**
 
 
 ---
