@@ -288,6 +288,11 @@ A2. **Average of child's readings is 99.825. Average of my readings is (without 
 
 ### 11. Measuring the Spread of Our Data
 
+* **Mean absolute deviation** (MAD) is the average distance of each observation from the mean. It is intuitive, but not as useful mathematically as the other options. ("For mathematicians, the absolute value function can be a bit annoying in practice") ...P.109, 106
+* **Variance** is the squared difference of our observations. It is the mathematically preferred method, but we lose the intuitive feel for what our calculation means. (Squaring results in an '**exponential penalty**') ...P.109, 107
+* **Standard deviation** (σ) is the square root of the variance. It is mathematically useful and also gives us results that are reasonably intuitive. (In most of the literature, variance is defined simply as σ2!) ...P.109, 108
+* By far the most commonly used is the standard deviation, because we can use it, together with the mean, to define a '**normal distribution**' ...P.108
+
 #### Exercises
 
 **Q1.** *One of the benefits of variance is that squaring the differences makes the penalties exponential. Give some examples of when this would be a useful property*
