@@ -311,6 +311,28 @@ A2. **sum = 55 --> mean = 5.5**
 ---
 
 ### 12. The Normal Distribution
+
+#### Exercises
+
+**Q1.** *What is the probability of observing a value five sigma greater than the mean or more?*
+
+A1. **xx**
+
+**Q2.** *A fever is any temperature greater than 100.4 degrees Fahrenheit. Given the following measurements, what is the probability that the patient has a fever? : 100.0, 99.8, 101.0, 100.5, 99.7*
+
+A2. **yy**
+
+**Q3.** *Suppose in Chapter 11 we tried to measure the depth of a well by timing coin drops and got the following values: 2.5, 3, 3.5, 4, 2. The distance an object falls can be calculated (in meters) with: distance = 1/2 × G × time^2 ...where G is 9.8 m/s/s. What is the probability that the well is over 500 meters deep?*
+
+A3. **zz**
+
+**Q4.** *What is the probability there is no well (ie. the well is really 0 meters deep)? There are two good (possible) explanations for this probability being higher than it should (given your observation that there is a well). The first is that the normal distribution is a poor model for our measurements; the second is that I made up values that you likely wouldn’t see in real life. Which is more likely to you?*
+
+A4. **aa**
+
+
+---
+
 ### 13. Tools of Parameter Estimation: The PDF, CDF, and Quantile Function
 ### 14. Parameter Estimation with Prior Probabilities
 
