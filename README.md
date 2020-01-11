@@ -316,19 +316,33 @@ A2. **sum = 55 --> mean = 5.5**
 
 **Q1.** *What is the probability of observing a value five sigma greater than the mean or more?*
 
-A1. **xx**
+A1. **From P.119 we know that -/+ 3 sigma is 99.7%. So the probability of 3 sigma or more than the mean is 0.0015 (ie. almost zero)**
+
+**From P.120 the probability of 3sigma to 5sigma is 1:5000 (though I don't understand why the ratio increases between successive sigma increments, since slope gets shallower). So 0.0015 / 5000 --> 0.0000003 (as an estimate)**
 
 **Q2.** *A fever is any temperature greater than 100.4 degrees Fahrenheit. Given the following measurements, what is the probability that the patient has a fever? : 100.0, 99.8, 101.0, 100.5, 99.7*
 
-A2. **yy**
+A2. **sum = 501; mean = 100.2**
+
+**variance = 0.2^2 + 0.4^2 + 0.8^2 + 0.3^2 + 0.5^2 --> 1.18/5 --> 0.236; variance = 0.4857983**
+
+**`integrate(function(x) dnorm(x,mean=100.2,sd=0.4857983),100.4,110)` --> 0.340282 with absolute error < 3.8e-10**
 
 **Q3.** *Suppose in Chapter 11 we tried to measure the depth of a well by timing coin drops and got the following values: 2.5, 3, 3.5, 4, 2. The distance an object falls can be calculated (in meters) with: distance = 1/2 × G × time^2 ...where G is 9.8 m/s/s. What is the probability that the well is over 500 meters deep?*
 
-A3. **zz**
+A3. **mean time = 15/5 --> 3s; mean distance = 1/2 x 9.8 x 9 --> 44.1m**
+
+**variance time = 0.5^2 + 0 + 0.5^2 + 1 + 1 --> 2.5; variance distance = 1/2 x 9.8 x 6.25 --> 30.625; SD distance = 5.533986m**
+
+**`integrate(function(x) dnorm(x,mean=44.1,sd=5.533986),500,1000)` --> 0 with absolute error < 0**
+
+**This is as expected, even without the R function, as 500m would be (500 - 44.1) / 5.54 --> 82sigma**
 
 **Q4.** *What is the probability there is no well (ie. the well is really 0 meters deep)? There are two good (possible) explanations for this probability being higher than it should (given your observation that there is a well). The first is that the normal distribution is a poor model for our measurements; the second is that I made up values that you likely wouldn’t see in real life. Which is more likely to you?*
 
-A4. **aa**
+A4. **Probability of no well (0 meters deep) will be the same as the probability that the well is at least 88.2m deep (since the normal distribution is symmetrical)**
+
+**`integrate(function(x) dnorm(x,mean=44.1,sd=5.533986),-100,0)` --> 8.002085e-16 with absolute error < 1.5e-15**
 
 
 ---
