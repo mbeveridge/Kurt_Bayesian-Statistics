@@ -270,7 +270,7 @@ A3. **[SEE ANSWER on P.240]**
 ### 10. Intoduction to Averaging and Parameter Estimation
 
 * Parameter : An unknown value that we want to estimate ...P.93
-* Averaging is the most basic form of parameter estimation ...P.94
+* Averaging (μ) is the most basic form of parameter estimation ...P.94
 * Parameter estimation is the most common process for dealing with uncertainty ...P.95
 
 #### Exercises
@@ -311,6 +311,14 @@ A2. **sum = 55 --> mean = 5.5**
 ---
 
 ### 12. The Normal Distribution
+
+*  The true goal of parameter estimation isn’t simply to estimate a value, but rather to assign a probability for a range ...P.111
+*  To get the probability, integrate the probability density function (PDF) ...P.117
+*  `integrate(function(x) dnorm(x,mean=20.6,sd=1.62),10,18)` ...P.118
+*  If you have information about your problem besides the μ and σ, it is usually best to make use of that [eg. beta distribution] ...P.118
+*  Only when you know nothing about the data other than its mean and variance is it safe to assume a normal distribution ...P.121
+*  Normal distribution is important because it allows us to reason about the error in our measurements in a probabilistic way ...P.122
+
 
 #### Exercises
 
