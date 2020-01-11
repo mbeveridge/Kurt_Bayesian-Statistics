@@ -318,7 +318,9 @@ A2. **sum = 55 --> mean = 5.5**
 
 A1. **From P.119 we know that -/+ 3 sigma is 99.7%. So the probability of 3 sigma or more than the mean is 0.0015 (ie. almost zero)**
 
-**From P.120 the probability of 3sigma to 5sigma is 1:5000 (though I don't understand why the ratio increases between successive sigma increments, since slope gets shallower). So 0.0015 / 5000 --> 0.0000003 (as an estimate)**
+**From P.120 the probability of 3sigma to 5sigma is 1:5000 (though I don't understand why the ratio increases between successive sigma increments, since slope gets shallower). So 0.0015 / 5000 --> 3.0e-7 (as an estimate)**
+
+[Answers on P.242 suggest a better method, using R : `integrate(function(x) dnorm(x,mean=0,sd=1),5,100)` --> 2.88167e-07 with absolute error < 5.6e-07]
 
 **Q2.** *A fever is any temperature greater than 100.4 degrees Fahrenheit. Given the following measurements, what is the probability that the patient has a fever? : 100.0, 99.8, 101.0, 100.5, 99.7*
 
@@ -332,17 +334,23 @@ A2. **sum = 501; mean = 100.2**
 
 A3. **mean time = 15/5 --> 3s; mean distance = 1/2 x 9.8 x 9 --> 44.1m**
 
-**variance time = 0.5^2 + 0 + 0.5^2 + 1 + 1 --> 2.5; variance distance = 1/2 x 9.8 x 6.25 --> 30.625; SD distance = 5.533986m**
+**variance time = (0.5^2 + 0 + 0.5^2 + 1 + 1) / 5 --> 0.5; variance distance = 1/2 x 9.8 x 0.5^2 --> 1.225; SD distance = 1.106797m**
 
-**`integrate(function(x) dnorm(x,mean=44.1,sd=5.533986),500,1000)` --> 0 with absolute error < 0**
+**`integrate(function(x) dnorm(x,mean=44.1,sd=1.106797),500,1000)` --> 0 with absolute error < 0**
 
-**This is as expected, even without the R function, as 500m would be (500 - 44.1) / 5.54 --> 82sigma**
+**This is as expected, even without the R function, as 500m would be (500 - 44.1) / 1.225 --> 372sigma**
+
+[Answers on P.243 suggest a (better?) method, using R for the mean & SD and remaining in time units (but separately calculating a time value for 500m)] [Have I still made an error? (I corrected a typo that affected A3. & A4.)]
 
 **Q4.** *What is the probability there is no well (ie. the well is really 0 meters deep)? There are two good (possible) explanations for this probability being higher than it should (given your observation that there is a well). The first is that the normal distribution is a poor model for our measurements; the second is that I made up values that you likely wouldn’t see in real life. Which is more likely to you?*
 
-A4. **Probability of no well (0 meters deep) will be the same as the probability that the well is at least 88.2m deep (since the normal distribution is symmetrical)**
+A4. **Probability of no well (0 meters deep) will be the same as the probability that the well is at least 88.2m deep (since the normal distribution is symmetrical) ...ie. much higher than the probability in A3, but still expected to be tiny**
 
-**`integrate(function(x) dnorm(x,mean=44.1,sd=5.533986),-100,0)` --> 8.002085e-16 with absolute error < 1.5e-15**
+**`integrate(function(x) dnorm(x,mean=44.1,sd=1.106797),-100,0)` --> 0 with absolute error < 0**
+
+**Based on the wording in the question, would expect a small but "higher than it should" probability, (which is not what I got). If I'd got that, would expect normal distribution to be a reasonable model in this context, but that values look more widely spread than careful real-life measurements would be**
+
+[Answers on P.244 remained in time units] [Have I still made an error? (I corrected a typo that affected A3. & A4.)]
 
 
 ---
