@@ -364,6 +364,24 @@ A4. **Probability of no well (0 meters deep) will be the same as the probability
 ---
 
 ### 13. Tools of Parameter Estimation: The PDF, CDF, and Quantile Function
+
+#### Exercises
+
+**Q1.** *Using the code example for plotting the PDF on P.127, plot the CDF and quantile functions*
+
+A1. ****
+
+**Q2.** *Returning to the task of measuring snowfall from Chapter 10, say you have the following measurements (in inches) of snowfall: 7.8, 9.4, 10.0, 7.9, 9.4, 7.0, 7.0, 7.1, 8.9, 7.4. What is your 99.9 percent confidence interval for the true value of snowfall?*
+
+A2. ****
+
+**Q3.** *A child has visited 30 houses and sold 10 candy bars. She will visit 40 more houses today. What is the 95 percent confidence interval for how many candy bars she will sell the rest of the day?*
+
+A3. ****
+
+
+---
+
 ### 14. Parameter Estimation with Prior Probabilities
 
 
