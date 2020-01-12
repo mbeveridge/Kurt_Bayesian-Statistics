@@ -391,21 +391,35 @@ A1. **PDF (from P.127 and plotted on P.125 [Figure 13-1]) :**
      ylab="probability of subscription",
      xlab="cumulative probability",
      main="Quantile function Beta(300,39700)")`~
+
+P.127 said "To understand the plotting code, see Appendix A"
  
-`xs <- seq(0.001,0.99,by=0.001)`
+**`xs <- seq(0.001,0.99,by=0.001)`
 `plot(xs,qbeta(xs,300,40000-300),type='l',lwd=3,
      ylab="probability of subscription",
      xlab="cumulative probability",
-     main="Quantile function Beta(300,39700)")`
+     main="Quantile function Beta(300,39700)")`**
 
 
 **Q2.** *Returning to the task of measuring snowfall from Chapter 10, say you have the following measurements (in inches) of snowfall: 7.8, 9.4, 10.0, 7.9, 9.4, 7.0, 7.0, 7.1, 8.9, 7.4. What is your 99.9 percent confidence interval for the true value of snowfall?*
 
-A2. ****
+A2. **mean = 81.9 / 10 --> 7.4; variance = (0.4^2 + 2^2 + 2.6^2 + 0.5^2 + 2^2 + 0.4^2 + 0.4^2 + 0.3^2 + 1.5^2 + 0) / 10 --> 1.783; SD = 1.33529**
+
+**We can estimate confidence intervals visually, using the CDF plot [P.132]. But for a calculation, we use a Quantile function with 99.9 percent confidence interval (lower bound 0.0005, upper bound 0.9995) :**
+
+**`qnorm(0.999, 7.4, 1.33529)` --> 11.52636 inches INTERVAL**
+
+`qnorm(0.9995, 7.4, 1.33529)` --> 11.79381 inches upper bound. (mean + 3sigma would be 7.4 + 4.00587 --> 11.40587, so it seems 'reasonable')
 
 **Q3.** *A child has visited 30 houses and sold 10 candy bars. She will visit 40 more houses today. What is the 95 percent confidence interval for how many candy bars she will sell the rest of the day?*
 
-A3. ****
+A3. **This is a binomial with alpha(success) = 10 and beta(failure) = 20 so far. We can use a Beta function**
+
+**`qbeta(0.95, 10, 20)` --> 0.4790119 conversion rate INTERVAL**
+
+`qbeta(0.025, 10, 20)` --> 0.1793836 lower bound; `qbeta(0.975, 10, 20)` --> 0.5083234 upper bound
+
+So 95 percent confidence interval for the next 40 houses is that she will sell between [0.1793836 x 40 --> 7.175344] and [0.5083234 x 40 --> 20.33294] bars
 
 
 ---
