@@ -369,7 +369,35 @@ A4. **Probability of no well (0 meters deep) will be the same as the probability
 
 **Q1.** *Using the code example for plotting the PDF on P.127, plot the CDF and quantile functions*
 
-A1. ****
+A1. **PDF (from P.127 and plotted on P.125 [Figure 13-1]) :**
+
+`xs <- seq(0.005,0.01,by=0.00001)`
+`xs.all <- seq(0,1,by=0.0001)`
+`plot(xs,dbeta(xs,300,40000-300),type='l',lwd=3,
+     ylab="density",
+     xlab="probability of subscription",
+     main="PDF Beta(300,39700)")`
+
+**CDF :**
+
+`plot(xs,pbeta(xs,300,40000-300),type='l',lwd=3,
+     ylab="cumulative probability",
+     xlab="probability of subscription",
+     main="CDF Beta(300,39700)")`
+
+**Quantile function :**
+
+~`plot(xs.all,qbeta(xs.all,300,40000-300),type='l',lwd=3,
+     ylab="probability of subscription",
+     xlab="cumulative probability",
+     main="Quantile function Beta(300,39700)")`~
+ 
+`xs <- seq(0.001,0.99,by=0.001)`
+`plot(xs,qbeta(xs,300,40000-300),type='l',lwd=3,
+     ylab="probability of subscription",
+     xlab="cumulative probability",
+     main="Quantile function Beta(300,39700)")`
+
 
 **Q2.** *Returning to the task of measuring snowfall from Chapter 10, say you have the following measurements (in inches) of snowfall: 7.8, 9.4, 10.0, 7.9, 9.4, 7.0, 7.0, 7.1, 8.9, 7.4. What is your 99.9 percent confidence interval for the true value of snowfall?*
 
