@@ -365,6 +365,10 @@ A4. **Probability of no well (0 meters deep) will be the same as the probability
 
 ### 13. Tools of Parameter Estimation: The PDF, CDF, and Quantile Function
 
+* xxx
+* yyy
+* zzz
+
 #### Exercises
 
 **Q1.** *Using the code example for plotting the PDF on P.127, plot the CDF and quantile functions*
