@@ -430,6 +430,18 @@ So 95 percent confidence interval for the next 40 houses is that she will sell b
 
 ### 14. Parameter Estimation with Prior Probabilities
 
+#### Exercises
+
+**1.** *Suppose you’re playing air hockey with some friends and flip a coin to see who starts with the puck. You realize that the friend who brings the coin almost always seems to go first: 9 out of 12 times. Other friends start to get suspicious. Define prior probability distributions for the following beliefs:*
+
+*• One person who weakly believes that the friend is cheating and the true rate of coming up heads is closer to 70%*
+
+*• One person who very strongly trusts that the coin is fair and provided a 50% chance of coming up heads*
+
+*• One person who strongly believes the coin is biased to come up heads 70% of the time*
+
+**2.** *To test the coin, you flip it 20 more times and get 9 heads and 11 tails. Using the priors you calculated in the previous question, what are the updated posterior beliefs in the true rate of flipping a heads in terms of the 95 percent confidence interval?*
+
 
 ---
 
