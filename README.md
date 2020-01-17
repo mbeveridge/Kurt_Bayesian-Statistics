@@ -40,6 +40,7 @@ A3. **P(door, window, no-laptop | H2, child)** ...where H2 = accident
 * ¬ symbol means “negation” or “not”. [ie. ¬P(X) == 1 - P(X)] ...P.14
 * Ω indicates the set of all events ...P.15
 
+
 #### Exercises
 
 **Q1+A1.** *What is the probability of rolling two six-sided dice and getting a value greater than 7?* **{2+6, 3+5, 3+6, 4+4, 4+5, 4+6, 5+3, 5+4, 5+5, 5+6, 6+2, 6+3, 6+4, 6+5, 6+6} --> 15/36 --> 0.417**
@@ -57,6 +58,7 @@ A3. **Odds of 30:5 or 6:1 --> P(win) = 6/7 or 0.857**
 
 * **Product Rule** of probability : P(A,B) = P(A) × P(B) ...P.25
 * **Sum Rule** of probability : P(A OR B) = P(A) + P(B) − P(A,B) ...P.29,30
+
 
 #### Exercises
 
@@ -173,6 +175,7 @@ A3. **α = 109; β = 111**
 * **Bayes theorem** : P(A | B) = P(A) P(B | A) / P(B) ...P.64
 *  Bayes’ theorem allows you to reverse P(observed | belief) and solve for the likelihood of your beliefs given what you’ve observed, P(belief | observed) ...P.64
 
+
 #### Exercises
 
 **Q1.** *What piece of information would we need in order to use Bayes’ theorem to determine the probability that someone in 2010 who had GBS also had the flu vaccine that year?*
@@ -203,6 +206,7 @@ A3. **P(color blind OR GBS | male,vaccine) = P(cb | male,vaccine) + P(GBS | male
 
 * **Bayes theorem** rearranged from Chapt6 : P(A | B) = P(B | A) P(A) / P(B) ...P.67
 
+
 #### Exercises
 
 **Q1.** *Kansas City, despite its name, sits on the border of two US states: Missouri and Kansas. The Kansas City metropolitan area consists of 15 counties, 9 in Missouri and 6 in Kansas. The entire state of Kansas has 105 counties and Missouri has 114. Use Bayes’ theorem to calculate the probability that a relative who just moved to a county in the Kansas City metropolitan area also lives in a county in Kansas. Make sure to show P(Kansas) (assuming your relative either lives in Kansas or Missouri), P(Kansas City metropolitan area), and P(Kansas City metropolitan area | Kansas)*
@@ -229,6 +233,7 @@ A2. **P(A | B) = P(B | A) P(A) / P(B)**
 * Ratio : If we just want to compare hypotheses, we don’t need to know P(D) (ie. don't need to normalize) ...P.78
 * Bayes' theorem (for ratio) : P(H | D) ∝ P(H) × P(D | H) ...'Posterior probability is proportional to Prior probability multiplied by the Likelihood'. (P(D) is notably absent) ...P.80
 
+
 #### Exercises
 
 **Q1.** *As mentioned, you might disagree with the original probability assigned to the likelihood: P(brokenwindow, openfrontdoor, missinglaptop | robbed) = 3/10. How much does this change our strength in believing H1 over H2?*
@@ -245,6 +250,7 @@ A2. **Prior : P(H1). Assume that "ratio of H1 to H2 to be even" means 'to be 1'.
 ### 9. Bayesian Priors and Working with Probability Distributions
 
 * [HARD TO UNDERSTAND, based on previous Chapters, especially (only?) 'Likelihood' here]
+
 
 #### Exercises
 
@@ -273,6 +279,7 @@ A3. **[SEE ANSWER on P.240]**
 * Averaging (μ) is the most basic form of parameter estimation ...P.94
 * Parameter estimation is the most common process for dealing with uncertainty ...P.95
 
+
 #### Exercises
 
 **Q1.** *It’s possible to get errors that don’t quite cancel out the way we want. In Fahrenheit, 98.6 degrees is the normal body temperature and 100.4 degrees is the typical threshold for a fever. Say a child feels warm and seems sick, but your repeated readings from the thermometer are all between 99.5 and 100.0 degrees: warm, but not quite a fever. You try the thermometer yourself and get several readings between 97.5 and 98. What could be wrong with the thermometer?*
@@ -292,6 +299,7 @@ A2. **Average of child's readings is 99.825. Average of my readings is (without 
 * **Variance** is the squared difference of our observations. It is the mathematically preferred method, but we lose the intuitive feel for what our calculation means. (Squaring results in an '**exponential penalty**') ...P.109, 107
 * **Standard deviation** (σ) is the square root of the variance. It is mathematically useful and also gives us results that are reasonably intuitive. (In most of the literature, variance is defined simply as σ2!) ...P.109, 108
 * By far the most commonly used is the standard deviation, because we can use it, together with the mean, to define a '**normal distribution**' ...P.108
+
 
 #### Exercises
 
@@ -377,6 +385,7 @@ A4. **Probability of no well (0 meters deep) will be the same as the probability
 * like the CDF, the quantile function is often very tricky to derive and use mathematically, so instead we rely on software ...P.134
 * quantile functions in R start with 'q' [`qbeta()`; `qnorm()`; etc] ...P.135
 
+
 #### Exercises
 
 **Q1.** *Using the code example for plotting the PDF on P.127, plot the CDF and quantile functions*
@@ -433,6 +442,15 @@ A3. **This is a binomial with alpha(success) = 10 and beta(failure) = 20 so far.
 ---
 
 ### 14. Parameter Estimation with Prior Probabilities
+
+* use our prior probabilities, combined with observed data, to come up with a better estimate ...P.137
+* the data we have observed is our 'likelihood', and the external context information is our 'prior probability' (eg. existing beliefs) ...P.139
+* [for beta dist] can calculate posterior distribution (the combination of likelihood and prior) by simply adding together the parameters for the two beta distributions ...P.140
+* most important point about Bayesian statistics: the more data we gather, the more our prior beliefs become diminished by evidence ...P.142
+* a Beta(1,1) prior is sometimes used in practice, when you believe that the two possible outcomes are equally likely ...P.145
+* If you have no data and no prior understanding of a problem, you can’t conclude anything at all until you know more ...P.145
+* often we won’t have data, but will have personal experience or can turn to experts. In these cases, estimate a probability distribution that corresponds to your intuition ...P.146
+
 
 #### Exercises
 
