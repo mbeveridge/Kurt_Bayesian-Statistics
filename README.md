@@ -365,9 +365,17 @@ A4. **Probability of no well (0 meters deep) will be the same as the probability
 
 ### 13. Tools of Parameter Estimation: The PDF, CDF, and Quantile Function
 
-* xxx
-* yyy
-* zzz
+* **probability density function** (PDF) takes a value and returns the probability of that value ...P.124; (Chapt5)
+* area under the curve of the PDF must add up to 1 ...P.125
+* PDF functions in R start with 'd' [`dbeta()`; `dnorm()`; etc] ...P.126
+* **cumulative distribution function** (CDF) at any given x-value is the probability of getting a value of x or lower. (ie. it represents the integral) ...P.127
+* the CDF is often a far more useful visual tool than the PDF ...P.132
+* **confidence interval** is a lower and upper bound of values, typically centred on the mean, describing a range of high probability. (eg. “The 95 percent confidence interval is from 12 to 20") ...P.132
+* CDF functions in R start with 'p' [`pbeta()`; `pnorm()`; `pbinom()`; etc] ...P.133
+* with CDFs it doesn’t matter if your distribution is discrete or continuous ...P.133
+* inverse of the CDF is an incredibly common and useful tool called the **quantile function** ... it looks like the CDF rotated 90 degrees ...P.134
+* like the CDF, the quantile function is often very tricky to derive and use mathematically, so instead we rely on software ...P.134
+* quantile functions in R start with 'q' [`qbeta()`; `qnorm()`; etc] ...P.135
 
 #### Exercises
 
