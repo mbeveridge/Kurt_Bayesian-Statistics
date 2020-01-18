@@ -443,13 +443,12 @@ A3. **This is a binomial with alpha(success) = 10 and beta(failure) = 20 so far.
 
 ### 14. Parameter Estimation with Prior Probabilities
 
-* use our prior probabilities, combined with observed data, to come up with a better estimate ...P.137
-* the data we have observed is our 'likelihood', and the external context information is our 'prior probability' (eg. existing beliefs) ...P.139
+* use our 'prior probabilities' [external context information (eg. existing beliefs)], combined with observed data ['likelihood'], to come up with a better estimate ...P.137, P.139
 * [for beta dist] can calculate posterior distribution (the combination of likelihood and prior) by simply adding together the parameters for the two beta distributions ...P.140
 * most important point about Bayesian statistics: the more data we gather, the more our prior beliefs become diminished by evidence ...P.142
-* a Beta(1,1) prior is sometimes used in practice, when you believe that the two possible outcomes are equally likely ...P.145
-* If you have no data and no prior understanding of a problem, you can’t conclude anything at all until you know more ...P.145
-* often we won’t have data, but will have personal experience or can turn to experts. In these cases, estimate a probability distribution that corresponds to your intuition ...P.146
+* a 'Beta(1,1)' prior is sometimes used in practice, when you earnestly believe that the two possible outcomes are equally likely ...P.145
+* If you have no data and no prior understanding of a problem, you can’t conclude anything ...P.145
+* often we won’t have data, but will have personal experience or can turn to experts (to estimate a probability distribution) ...P.146
 
 
 #### Exercises
@@ -467,4 +466,22 @@ A3. **This is a binomial with alpha(success) = 10 and beta(failure) = 20 so far.
 
 ---
 
-## PART IV
+## PART IV: HYPOTHESIS TESTING: THE HEART OF STATISTICS
+
+### 15. From Parameter Estimation to Hypothesis Testing: Building a Bayesian A/B Test
+
+
+
+
+
+
+---
+
+### 16. Introduction to the Bayes Factor and Posterior Odds: The Competition of Ideas
+
+### 17. Bayesian Reasoning in the Twilight Zone
+
+### 18. When Data Doesn't Convince You
+
+### 19. From Hypothesis Testing to Parameter Estimation
+
