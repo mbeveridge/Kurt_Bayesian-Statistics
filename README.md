@@ -453,7 +453,7 @@ A3. **This is a binomial with alpha(success) = 10 and beta(failure) = 20 so far.
 
 #### Exercises
 
-**1.** *Suppose you’re playing air hockey with some friends and flip a coin to see who starts with the puck. You realize that the friend who brings the coin almost always seems to go first: 9 out of 12 times. Other friends start to get suspicious. Define prior probability distributions for the following beliefs:*
+**Q1.** *Suppose you’re playing air hockey with some friends and flip a coin to see who starts with the puck. You realize that the friend who brings the coin almost always seems to go first: 9 out of 12 times. Other friends start to get suspicious. Define prior probability distributions for the following beliefs:*
 
 *• One person who weakly believes that the friend is cheating and the true rate of coming up heads is closer to 70%*
 
@@ -461,7 +461,7 @@ A3. **This is a binomial with alpha(success) = 10 and beta(failure) = 20 so far.
 
 *• One person who strongly believes the coin is biased to come up heads 70% of the time*
 
-**2.** *To test the coin, you flip it 20 more times and get 9 heads and 11 tails. Using the priors you calculated in the previous question, what are the updated posterior beliefs in the true rate of flipping a heads in terms of the 95 percent confidence interval?*
+**Q2.** *To test the coin, you flip it 20 more times and get 9 heads and 11 tails. Using the priors you calculated in the previous question, what are the updated posterior beliefs in the true rate of flipping a heads in terms of the 95 percent confidence interval?*
 
 
 ---
@@ -470,9 +470,23 @@ A3. **This is a binomial with alpha(success) = 10 and beta(failure) = 20 so far.
 
 ### 15. From Parameter Estimation to Hypothesis Testing: Building a Bayesian A/B Test
 
+#### Exercises
 
+**Q1.** *Suppose a director of marketing with many years of experience tells you he believes very strongly that the variant without images (B) won’t perform any differently than the original variant. How could you account for this in our model? Implement this change and see how your final conclusions change as well*
 
+A1. **xxx**
 
+**Q2.** *The lead designer sees your results and insists that there’s no way that variant B should perform better with no images. She feels that you should assume the conversion rate for variant B is closer to 20% than 30%. Implement a solution for this and again review the results of our analysis*
+
+A2. **yy**
+
+**Q3.** *Assume that being 95% certain means that you’re more or less “convinced” of a hypothesis. Also assume that there’s no longer any limit to the number of emails you can send in your test. If the true conversion for A is 0.25 and for B is 0.3, explore how many samples it would take to convince the director of marketing that B was in fact superior. Explore the same for the lead designer. You can generate samples of conversions with the following snippet of R:*
+
+`true.rate <- 0.25`
+`number.of.samples <- 100`
+`results <- runif(number.of.samples) <= true.rate`
+
+A3. **zz**
 
 
 ---
