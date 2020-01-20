@@ -470,6 +470,11 @@ A3. **This is a binomial with alpha(success) = 10 and beta(failure) = 20 so far.
 
 ### 15. From Parameter Estimation to Hypothesis Testing: Building a Bayesian A/B Test
 
+* 'Monte Carlo simulation' is any xxx
+* `rbeta()`
+* (Remember Chapt13 `dbeta`, `pbeta`, `qbeta`)
+
+
 #### Exercises
 
 **Q1.** *Suppose a director of marketing with many years of experience tells you he believes very strongly that the variant without images (B) won’t perform any differently than the original variant. How could you account for this in our model? Implement this change and see how your final conclusions change as well*
