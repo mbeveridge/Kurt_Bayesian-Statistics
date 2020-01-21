@@ -470,9 +470,13 @@ A3. **This is a binomial with alpha(success) = 10 and beta(failure) = 20 so far.
 
 ### 15. From Parameter Estimation to Hypothesis Testing: Building a Bayesian A/B Test
 
-* 'Monte Carlo simulation' is any xxx
-* `rbeta()`
-* (Remember Chapt13 `dbeta`, `pbeta`, `qbeta`)
+* Since we already know how to estimate a single unknown parameter, all we need to do for our test is estimate both parameters ...P.149
+* '**Monte Carlo simulation**' is any technique that makes use of random sampling to solve a problem ...P.152
+* `rbeta()` function in R allows us to automatically sample from a beta distribution ...P.153
+* [*Reminder: `dbeta` (PDF), `pbeta` (CDF), `qbeta`(quantile) functions*] ...Chapt13
+* `a.samples <- rbeta(n.trials,36+prior.alpha,114+prior.beta)` collects samples from variant A ...P.153
+* `p.b_superior <- sum(b.samples > a.samples)/n.trials` gives us the % of total trials where variant B was greater than variant A ...P.154
+* `b.samples/a.samples` gives us a distribution of the relative improvements from variant A to variant B ...P.154
 
 
 #### Exercises
@@ -497,6 +501,20 @@ A3. **zz**
 ---
 
 ### 16. Introduction to the Bayes Factor and Posterior Odds: The Competition of Ideas
+
+#### Exercises
+
+**Q1.** *Returning to the dice problem, assume that your friend made a mistake and suddenly realized that there were, in fact, two loaded dice and only one fair die. How does this change the prior, and therefore the posterior odds, for our problem? Are you more willing to believe that the die being rolled is the loaded die?*
+
+A1. **xx**
+
+**Q2.** *Returning to the rare diseases example, suppose you go to the doctor, and after having your ears cleaned you notice that your symptoms persist. Even worse, you have a new symptom: vertigo. The doctor proposes another possible explanation, labyrinthitis, which is a viral infection
+of the inner ear in which 98% of cases involve vertigo. However, hearing loss and tinnitus are less common in this disease; hearing loss occurs only 30% of the time, and tinnitus occurs only 28% of the time. Vertigo is also a possible symptom of vestibular schwannoma, but occurs in only 49% of cases. In the general population, 35 people per million contract labyrinthitis annually. What is the posterior odds when you compare the hypothesis that you have labyrinthitis against the hypothesis that you have vestibular schwannoma?*
+
+A2. **yy**
+
+
+---
 
 ### 17. Bayesian Reasoning in the Twilight Zone
 
