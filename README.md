@@ -502,6 +502,11 @@ A3. **zz**
 
 ### 16. Introduction to the Bayes Factor and Posterior Odds: The Competition of Ideas
 
+* **Bayes factor** (likelihood ratio) tells us the likelihood of the data given *our* beliefs, compared to the likelihood given *someone else's* beliefs. [If the competing hypothesis explains the observed data much better than ours, it might be time to change our beliefs. (We can use it to strengthen our prior beliefs when they explain the data better)] ...P.159
+* **prior odds** say how strongly we believe our hypothesis (over someone else's) ...P.160
+* **posterior odds** are a combinination of Bayes factor and prior odds ...P.160
+
+
 #### Exercises
 
 **Q1.** *Returning to the dice problem, assume that your friend made a mistake and suddenly realized that there were, in fact, two loaded dice and only one fair die. How does this change the prior, and therefore the posterior odds, for our problem? Are you more willing to believe that the die being rolled is the loaded die?*
