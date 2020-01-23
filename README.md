@@ -523,6 +523,27 @@ A2. **yy**
 
 ### 17. Bayesian Reasoning in the Twilight Zone
 
+#### Exercises
+
+**Q1.** *Every time you and your friend get together to watch movies, you flip a coin to determine who gets to choose the movie. Your friend always picks heads, and every Friday for 10 weeks, the coin lands on heads. You develop a hypothesis that the coin has two heads. Set up a Bayes factor for the hypoth­esis that the coin is a trick coin over the hypothesis that the coin is fair. What does this ratio alone suggest about whether or not your friend is cheating you?*
+
+A1. **xx**
+
+**Q2.** *Now imagine three cases: that your friend is a bit of a prankster, that your friend is honest most of the time but can occasionally be sneaky, and that your friend is very trustworthy. In each case, estimate some prior odds ratios for your hypothesis and compute the posterior odds*
+
+A2. **yy**
+
+**Q3.** *Suppose you trust this friend deeply. Make the prior odds of them cheating 1/10,000. How many times would the coin have to land on heads before you feel unsure about their innocence — say, a posterior odds of 1?*
+
+A3. **zz**
+
+**Q4.** *Another friend of yours also hangs out with this same friend and, after only four weeks of the coin landing on heads, feels certain you’re both being cheated. This confidence implies a posterior odds of about 100. What value would you assign to this other friend’s prior belief that the first friend is a cheater?*
+
+A4. **xyz**
+
+
+---
+
 ### 18. When Data Doesn't Convince You
 
 ### 19. From Hypothesis Testing to Parameter Estimation
