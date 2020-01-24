@@ -551,5 +551,23 @@ A4. **xyz**
 
 ### 18. When Data Doesn't Convince You
 
+
+#### Exercises
+
+**Q1.** *When two hypotheses explain the data equally well, one way to change our minds is to see if we can attack the prior probability. What are some factors that might increase your prior belief in your friend’s psychic powers?*
+
+A1. **xx**
+
+**Q2.** *An experiment claims that when people hear the word 'Florida', they think of the elderly and this has an impact on their walking speed. To test this, we have two groups of 15 students walk across a room; one group hears the word 'Florida' and one does not. Assume H1 = the groups don’t move at different speeds, and H2 = the Florida group is slower because of hearing the word 'Florida'. Also assume:*
+
+BF = P (D | H2 ) / P (D | H1 )
+
+*The experiment shows that H2 has a Bayes factor of 19. Suppose someone is unconvinced by this experiment because H2 had a lower prior odds. What prior odds would explain someone being unconvinced and what would the BF need to be to bring the posterior odds to 50 for this unconvinced person?*
+
+*Now suppose the prior odds do not change the skeptic’s mind. Think of an alternate H3 that explains the observation that the Florida group is slower. Remember if H2 and H3 both explain the data equally well, only prior odds in favor of H3 would lead someone to claim H3 is true over H2, so we need to rethink the experiment so that these odds are decreased. Come up with an experiment that could change the prior odds in H3 over H2*
+
+
+---
+
 ### 19. From Hypothesis Testing to Parameter Estimation
 
