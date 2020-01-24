@@ -523,6 +523,11 @@ A2. **yy**
 
 ### 17. Bayesian Reasoning in the Twilight Zone
 
+* Calculating the Bayes factor doesn’t explain why 2 people form different beliefs about the evidence ...P.170
+* posterior odds can help us quantify how much evidence a person needs, to be convinced of a hypothesis ...P.171
+* posterior odds can help us estimate a value for a person’s prior beliefs ...P.173
+
+
 #### Exercises
 
 **Q1.** *Every time you and your friend get together to watch movies, you flip a coin to determine who gets to choose the movie. Your friend always picks heads, and every Friday for 10 weeks, the coin lands on heads. You develop a hypothesis that the coin has two heads. Set up a Bayes factor for the hypoth­esis that the coin is a trick coin over the hypothesis that the coin is fair. What does this ratio alone suggest about whether or not your friend is cheating you?*
