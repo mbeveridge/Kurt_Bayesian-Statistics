@@ -571,3 +571,17 @@ BF = P (D | H2 ) / P (D | H1 )
 
 ### 19. From Hypothesis Testing to Parameter Estimation
 
+#### Exercises
+
+**Q1.** *Our Bayes factor assumed that we were looking at H1: P(prize) = 0.5. This allowed us to derive a version of the beta distribution with an alpha of 1 and a beta of 1. Would it matter if we chose a different probability for H1? Assume H1: P(prize) = 0.24, then see if the resulting distribution, once normalized to sum to 1, is any different than the original hypothesis*
+
+A1. **xx**
+
+**Q2.** *Write a prior for the distribution in which each hypothesis is 1.05 times more likely than the previous hypothesis (assume our dx remains the same)*
+
+A2. **yy**
+
+**Q3.** *Suppose you observed another duck game that included 34 ducks with prizes and 66 ducks without prizes. How would you set up a test to answer “What is the probability that you have a better chance of winning a prize in this game than in the game we used in our example?” Implementing this requires a bit more sophistication than the R used in this book, but see if you can learn this on your own to kick off your adventures in more advanced Bayesian statistics!*
+
+A3. **zz**
+
