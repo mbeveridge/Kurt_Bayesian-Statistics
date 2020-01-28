@@ -587,6 +587,9 @@ A2. **yy**
 
 ### 19. From Hypothesis Testing to Parameter Estimation
 
+* by looking at a virtually continuous range of possible hypotheses, we can use the Bayes factor and posterior odds (a hypothesis test) as a form of parameter estimation! ...P.184
+
+
 #### Exercises
 
 **Q1.** *Our Bayes factor assumed that we were looking at H1: P(prize) = 0.5. This allowed us to derive a version of the beta distribution with an alpha of 1 and a beta of 1. Would it matter if we chose a different probability for H1? Assume H1: P(prize) = 0.24, then see if the resulting distribution, once normalized to sum to 1, is any different than the original hypothesis*
