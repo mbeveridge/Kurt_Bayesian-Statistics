@@ -453,15 +453,23 @@ A3. **This is a binomial with alpha(success) = 10 and beta(failure) = 20 so far.
 
 #### Exercises
 
-**Q1.** *Suppose you’re playing air hockey with some friends and flip a coin to see who starts with the puck. You realize that the friend who brings the coin almost always seems to go first: 9 out of 12 times. Other friends start to get suspicious. Define prior probability distributions for the following beliefs:*
+**Q1+A1.** *Suppose you’re playing air hockey with some friends and flip a coin to see who starts with the puck. You realize that the friend who brings the coin almost always seems to go first: 9 out of 12 times. Other friends start to get suspicious. Define prior probability distributions for the following beliefs:*
 
 *• One person who weakly believes that the friend is cheating and the true rate of coming up heads is closer to 70%*
 
+**xx**
+
 *• One person who very strongly trusts that the coin is fair and provided a 50% chance of coming up heads*
+
+**xxx**
 
 *• One person who strongly believes the coin is biased to come up heads 70% of the time*
 
+**xxxx**
+
 **Q2.** *To test the coin, you flip it 20 more times and get 9 heads and 11 tails. Using the priors you calculated in the previous question, what are the updated posterior beliefs in the true rate of flipping a heads in terms of the 95 percent confidence interval?*
+
+A2. **yy**
 
 
 ---
@@ -551,6 +559,12 @@ A4. **xyz**
 
 ### 18. When Data Doesn't Convince You
 
+* In most cases in this book where the likelihood gives us strange results, we can solve the problem by including our prior probabilities ...P.177
+* a hypothesis test compares only two explanations, but very often there are countless explanations ...P.178
+* if, before considering the data, we believe one explanation is far more likely, then no amount of new evidence will change our minds ...P.179
+* If you’re unwilling to let go of unjustifiable prior beliefs, you’re no longer reasoning in a Bayesian — or logical — way at all ...P.179
+* In Bayesian reasoning, it is vital that our beliefs are at least **falsifiable** (ie. has to be some way to reduce our belief in a hypothesis), else more data will only serve to make us more certain of the conspiracy ...P.180
+
 
 #### Exercises
 
@@ -565,6 +579,8 @@ BF = P (D | H2 ) / P (D | H1 )
 *The experiment shows that H2 has a Bayes factor of 19. Suppose someone is unconvinced by this experiment because H2 had a lower prior odds. What prior odds would explain someone being unconvinced and what would the BF need to be to bring the posterior odds to 50 for this unconvinced person?*
 
 *Now suppose the prior odds do not change the skeptic’s mind. Think of an alternate H3 that explains the observation that the Florida group is slower. Remember if H2 and H3 both explain the data equally well, only prior odds in favor of H3 would lead someone to claim H3 is true over H2, so we need to rethink the experiment so that these odds are decreased. Come up with an experiment that could change the prior odds in H3 over H2*
+
+A2. **yy**
 
 
 ---
