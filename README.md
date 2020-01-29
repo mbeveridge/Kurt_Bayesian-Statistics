@@ -604,3 +604,7 @@ A2. **yy**
 
 A3. **zz**
 
+
+---
+
+## APPENDIX A: A QUICK INTRODUCTION TO R
