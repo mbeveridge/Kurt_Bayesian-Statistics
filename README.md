@@ -608,3 +608,8 @@ A3. **zz**
 ---
 
 ## APPENDIX A: A QUICK INTRODUCTION TO R
+
+##### R and RStudio
+##### Creating an R Script
+##### Basic Concepts in R
+##### Functions
