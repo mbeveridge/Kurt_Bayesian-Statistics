@@ -614,3 +614,12 @@ A3. **zz**
 ##### Basic Concepts in R
 ##### Functions
 ##### Random Sampling
+* `runif()` : random uniform
+* `rnorm()` : random normal
+* `sample()`
+* `set.seed()`
+
+##### Defining Your Own Functions
+* `function(){}`
+
+##### Creating Basic Plots
