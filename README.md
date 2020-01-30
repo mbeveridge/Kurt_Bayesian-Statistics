@@ -623,3 +623,9 @@ A3. **zz**
 * `function(){}`
 
 ##### Creating Basic Plots
+
+
+---
+
+## APPENDIX B: ENOUGH CALCULUS TO GET BY
+
