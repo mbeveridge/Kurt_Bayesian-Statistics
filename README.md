@@ -613,3 +613,4 @@ A3. **zz**
 ##### Creating an R Script
 ##### Basic Concepts in R
 ##### Functions
+##### Random Sampling
