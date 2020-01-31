@@ -629,3 +629,6 @@ A3. **zz**
 
 ## APPENDIX B: ENOUGH CALCULUS TO GET BY
 
+##### Functions
+##### The Fundamental Theorem of Calculus
+
