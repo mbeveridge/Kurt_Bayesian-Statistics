@@ -588,6 +588,12 @@ A2. **yy**
 ### 19. From Hypothesis Testing to Parameter Estimation
 
 * by looking at a virtually continuous range of possible hypotheses, we can use the Bayes factor and posterior odds (a hypothesis test) as a form of parameter estimation! ...P.184
+* `seq()` function in R to create a sequence of hypotheses we want to compare to our H1 ...P.186
+* `bayes.factor()` function defined, to calculate likelihood ratio for any two hypotheses ...P.186
+* `plot()` function in R to plot a chart ...P.187
+* `ifelse()` ...P.188
+* "From the basic rules of probability, we can derive Bayes' theorem ... From Bayes' theorem, we can derive the Bayes factor ... [W]e can use the Bayes factor to create a parameter estimate for an unknown value" ...P.194
+* "And all we need to do to unlock all this power is use the basic rules of probability to define our likelihood, P(D|H)" ...P.194
 
 
 #### Exercises
