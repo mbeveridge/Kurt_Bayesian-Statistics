@@ -638,4 +638,5 @@ A3. **zz**
 
 ##### Functions
 ##### The Fundamental Theorem of Calculus
+* "Using the fundamental theorem, if we can find the antiderivative of the function we want to find the integral of, we can easily perform integration" ...P.228
 
