@@ -620,15 +620,16 @@ A3. **zz**
 ##### Basic Concepts in R
 ##### Functions
 ##### Random Sampling
-* `runif()` : random uniform
-* `rnorm()` : random normal
-* `sample()`
-* `set.seed()`
+* `runif()` : random uniform ...P.206
+* `rnorm()` : random normal ...P.207
+* `sample()` ...P.207
+* `set.seed()` ...P.208
 
 ##### Defining Your Own Functions
-* `function(){}`
+* `function(){}` ...P.209
 
 ##### Creating Basic Plots
+* `plot()` ...P.210
 
 
 ---
